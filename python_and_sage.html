@@ -1,0 +1,15 @@
+You can replace your old dictionary with a defaultdict:
+
+>>> from collections import defaultdict
+>>> d = {'foo': 123, 'bar': 456}
+>>> d['baz']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'baz'
+>>> d = defaultdict(lambda: -1, d)
+>>> d['baz']
+-1
+The "trick" here is that a defaultdict can be initialized with another dict. This means that you preserve the existing values in your normal dict:
+
+>>> d['foo']
+123
