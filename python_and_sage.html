@@ -1,3 +1,20 @@
+20190605:
+
+def add(a,b):
+    for i in range(len(a)):
+        a[i]=a[i]+b[0]        
+    return a
+
+a=[3]
+b=[5]
+add(a,b)
+print a,b
+
+>>[8] [5]
+
+Well, if you change list[i] in a funciton, the list changes...
+-------------
+
 You can replace your old dictionary with a defaultdict:
 
 >>> from collections import defaultdict
