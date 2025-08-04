@@ -1,0 +1,27 @@
+# mkdocs.yml
+site_name: My Docs
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: teal
+    accent: amber
+plugins:
+  - search:
+      lang: zh
+
+# markdown related
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css
+
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js
+  - javascripts/math.js 
