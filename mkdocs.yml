@@ -1,11 +1,11 @@
 # mkdocs.yml
-site_name: My Docs
+site_name: Axiom_Space_Reborn
 theme:
   name: material
   language: zh
   palette:
-    primary: teal
-    accent: amber
+    primary: yellow
+    accent: cyan
 plugins:
   - search:
       lang: zh
