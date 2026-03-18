@@ -6,5 +6,4 @@ Anyway I still have a git version in my laptop and maybe i can try updating from
 
 A word about the workflow. Though this project is built by mkdocs, and I have a local installation, I do not really need to run it locally every time I update. Simply edit the .md files and push to remote and github does the updating automatically. Like magic. 
 
-
-
+2025-09-07 Sun 21:50:34
