@@ -7,4 +7,7 @@ and created this with
 You can serve locally with 
  $mkdocs serve
 
+or more prudently,
 
+ $mkdocs build && mkdocs serve
+ 

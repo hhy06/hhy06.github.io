@@ -10,6 +10,7 @@ plugins:
   - search:
       lang: zh
   - tags
+dev_addr: 0.0.0.0:8192
 
 # markdown related
 markdown_extensions:
